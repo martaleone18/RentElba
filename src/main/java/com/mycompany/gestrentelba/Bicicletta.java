@@ -9,6 +9,10 @@ package com.mycompany.gestrentelba;
  *
  * @author tss
  */
-public class Bicicletta {
+public class Bicicletta extends Mezzi {
+    
+    public Bicicletta(String modello, int prezzoGiornaliero, int prezzoOrario) {
+        super(modello, prezzoGiornaliero, prezzoOrario);
+    }
     
 }
