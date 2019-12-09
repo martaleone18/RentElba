@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author tss
  */
-public class Turisti {
+public class Turista {
 
     private String nome;
     private String cognome;
@@ -19,16 +19,16 @@ public class Turisti {
     private String password;
     private String numTelefono;
     private int annoNascita;
-    private ArrayList<Turisti> elencoTuristi;
+    private ArrayList<Turista> elencoTuristi;
 
-    public Turisti(String nome, String cognome, String username, String password, String numTelefono, int annoNascita) {
+    public Turista(String nome, String cognome, String username, String password, String numTelefono, int annoNascita) {
         this.nome = nome;
         this.cognome = cognome;
         this.username = username;
         this.password = password;
         this.numTelefono = numTelefono;
         this.annoNascita = annoNascita;
-        elencoTuristi = new ArrayList<Turisti>();
+        elencoTuristi = new ArrayList<Turista>();
 
     }
 
@@ -80,18 +80,18 @@ public class Turisti {
         this.annoNascita = annoNascita;
     }
 
-    public ArrayList<Turisti> getElencoTuristi() {
+    public ArrayList<Turista> getElencoTuristi() {
         return elencoTuristi;
     }
 
-    public void setElencoTuristi(ArrayList<Turisti> elencoTuristi) {
+    public void setElencoTuristi(ArrayList<Turista> elencoTuristi) {
         this.elencoTuristi = elencoTuristi;
     }
 
     public String schedaInfoTuristi() {
         String ris = " ";
         int i = 0;
-        for (Turisti tu : elencoTuristi) {
+        for (Turista tu : elencoTuristi) {
 
             i++;
 

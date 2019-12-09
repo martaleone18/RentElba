@@ -9,12 +9,15 @@ package com.mycompany.gestrentelba;
  *
  * @author tss
  */
-public class Automobile extends Mezzi {
-    
-    private int assicurazioneGiornaliera;
+public class Bicicletta extends Mezzi {
 
-    public Automobile(String modello, int prezzoGiornaliero, int prezzoOrario) {
-        super(modello, prezzoGiornaliero, prezzoOrario);
-    }
+    private String attivitàAggiuntive;
     
+
+    public Bicicletta(String modello, int prezzoGiornaliero, int prezzoOrario) {
+        super(modello, prezzoGiornaliero, prezzoOrario);
+        this.attivitàAggiuntive=attivitàAggiuntive;
+
+    }
+
 }

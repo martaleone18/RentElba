@@ -25,6 +25,8 @@ public class Noleggio {
         elencoNoleggio = new ArrayList<Noleggio>();
     }
 
+  
+
     public ArrayList<Noleggio> getElencoNoleggio() {
         return elencoNoleggio;
     }
