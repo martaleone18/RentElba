@@ -5,6 +5,7 @@
  */
 package com.mycompany.gestrentelba;
 
+import static com.mycompany.gestrentelba.GestRent.elencoTuristi;
 import java.util.ArrayList;
 
 /**
@@ -12,6 +13,8 @@ import java.util.ArrayList;
  * @author tss
  */
 public class Turista {
+
+    
 
     private String nome;
     private String cognome;
@@ -87,7 +90,7 @@ public class Turista {
     public void setElencoTuristi(ArrayList<Turista> elencoTuristi) {
         this.elencoTuristi = elencoTuristi;
     }
-
+    
     public String schedaInfoTuristi() {
         String ris = " ";
         int i = 0;
